@@ -1,0 +1,8 @@
+.carousel-slider > div {
+	display:none;
+	float:none;
+}
+.carousel-slider > div:first-child { display:block; }
+
+.carousel-slider.affa-testimonials-carousel { padding-bottom:0px; }
+.carousel-slider.affa-testimonials-carousel .affa-testimonial { margin-bottom:0px; }
