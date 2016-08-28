@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html class="is-dashboard" lang="en">
+
+<!-- Mirrored from graphikaria.com/demo/theorem/v2.0.0/activity.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Aug 2016 15:32:52 GMT -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/favicon-152.html">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="assets/ico/favicon-144.html">
+
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/simple-lines/simple-line-icons.css">
+  <link rel="stylesheet" href="assets/bootstrap-select/bootstrap-select.min.css">
+  <link rel="stylesheet" href="assets/prism/prism.css">
+  <link rel="stylesheet" href="assets/summernote/summernote.css">
+  <link rel="stylesheet" href="assets/tags-input/bootstrap-tagsinput.css">
+  <link rel="stylesheet" href="assets/css/theme.min.css">
+  <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <script src="assets/js/selectivizr-min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="dashboard-wrapper">
+    <aside class="dashboard-sidebar sidebar-primary">
+      <div class="sidebar-header text-center">
+        <a class="navbar-brand" href="#link">
+          <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png">
+          <span class="brand-name">Dashboard</span>
+        </a><!-- /.navbar-brand -->
+      </div><!-- /.sidebar-header -->
+      <div class="sidebar-subheader text-center">
+        <img class="img-circle" src="assets/img/user-male-2.jpg" width="100" height="100" alt="img">
+        <p class="no-margin"><strong>Cooper Black</strong></p>
+        <p><small><i class="fa fa-globe"></i> Paris, France</small></p>
+        <p><a href="#link" class="btn btn-outline btn-primary">Edit Profile</a></p>
+      </div><!-- /.sidebar-subheader -->
+      <div class="sidebar-subheader">
+        <form role="search">
+          <input type="text" class="form-control" placeholder="Search">
+        </form>
+      </div><!-- /.sidebar-subheader -->
+      <ul class="sidebar-nav">
+        <li>
+          <a href="index.html">
+            <i class="icon-home"></i>
+            Home
+          </a>
+        </li>
+        <li class="header"><i class="fa fa-circle-o text-warning"></i> Admin</li>
+        <li>
+          <a href="stats.html">
+            <i class="icon-pie-chart"></i>
+            Stats
+          </a>
+        </li>
+        <li class="active">
+          <a href="activity.html">
+            <i class="icon-fire"></i>
+            Activity
+          </a>
+        </li>
+        <li>
+          <a href="widgets.html">
+            <i class="icon-grid"></i>
+            Widgets
+          </a>
+        </li>
+        <li class="header"><i class="fa fa-circle-o text-info"></i> Pubishing</li>
+        <li>
+          <a href="publishing.html">
+            <i class="icon-note"></i>
+            Publishing
+          </a>
+        </li>
+        <li>
+          <a href="calendar.html">
+            <i class="icon-calendar"></i>
+            Calendar
+          </a>
+        </li>
+        <li>
+          <a href="gallery.html">
+            <i class="icon-picture"></i>
+            Media
+          </a>
+        </li>
+        <li>
+          <a href="edit-profile.html">
+            <i class="icon-user"></i>
+            Edit Profile
+          </a>
+        </li>
+        <li>
+          <a href="tables.html">
+            <i class="icon-layers"></i>
+            Data
+          </a>
+        </li>
+        <li class="header"><i class="fa fa-circle-o text-success"></i> Settings</li>
+        <li>
+          <a href="pricing.html">
+            <i class="icon-basket-loaded"></i>
+            Pricing
+          </a>
+        </li>
+        <li>
+          <a href="settings.html">
+            <i class="icon-equalizer"></i>
+            Settings
+          </a>
+        </li>
+        <li>
+          <a href="#link" data-toggle="collapse" data-target="#submenu-1">
+            <i class="icon-folder"></i>
+            Dropdown
+          </a>
+          <ul class="sidebar-nav-dropdown collapse" id="submenu-1">
+            <li class="active"><a href="#link"><i class="fa fa-fw fa-angle-right"></i> Submenu</a></li>
+            <li><a href="#link"><i class="fa fa-fw fa-angle-right"></i> Submenu</a></li>
+            <li><a href="#link"><i class="fa fa-fw fa-angle-right"></i> Submenu</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="login.html">
+            <i class="icon-logout"></i>
+            Login Page
+          </a>
+        </li>
+      </ul><!-- /.sidebar-nav -->
+    </aside><!-- /.sidebar -->
+
+    <aside class="dashboard-sidebar sidebar-secondary">
+      <div class="sidebar-header">
+        <button type="button" class="btn btn-link pull-left vertical-align" data-toggle="sidebar-secondary"><i class="fa fa-fw fa-times-circle fa-lg text-white"></i></button>
+        <p class="pull-left vertical-align"><strong>Notifications:</strong></p>
+      </div><!-- /.sidebar-header -->
+      <ul class="sidebar-nav">
+        <li class="new">
+          <a href="#link">
+            <div class="media media-post">
+              <img class="media-left" src="assets/img/user-female-1.jpg" alt="img">
+              <div class="media-body">
+                <span class="media-heading">Lucida Sans</span>
+                Has added 3 new pictures to her cloud instance
+                <span class="media-meta"><i class="fa fa-clock-o"></i> 5 minutes ago</span>
+              </div><!-- /.media-body -->
+            </div><!-- /.media -->
+          </a>
+        </li>
+        <li class="new">
+          <a href="#link">
+            <div class="media media-post">
+              <img class="media-left" src="assets/img/user-female-2.jpg" alt="img">
+              <div class="media-body">
+                <span class="media-heading">Cambria Serif</span>
+                Has added 3 new pictures to her cloud instance
+                <span class="media-meta"><i class="fa fa-clock-o"></i> 5 minutes ago</span>
+              </div><!-- /.media-body -->
+            </div><!-- /.media -->
+          </a>
+        </li>
+        <li>
+          <a href="#link">
+            <div class="media media-post">
+              <img class="media-left" src="assets/img/user-male-1.jpg" alt="img">
+              <div class="media-body">
+                <span class="media-heading">Calisto MT</span>
+                Has added 3 new pictures to her cloud instance
+                <span class="media-meta"><i class="fa fa-clock-o"></i> 5 minutes ago</span>
+              </div><!-- /.media-body -->
+            </div><!-- /.media -->
+          </a>
+        </li>
+        <li>
+          <a href="#link">
+            <div class="media media-post">
+              <img class="media-left" src="assets/img/user-male-2.jpg" alt="img">
+              <div class="media-body">
+                <span class="media-heading">Cooper Black</span>
+                Has added 3 new pictures to her cloud instance
+                <span class="media-meta"><i class="fa fa-clock-o"></i> 5 minutes ago</span>
+              </div><!-- /.media-body -->
+            </div><!-- /.media -->
+          </a>
+        </li>
+        <li>
+          <a href="#link">
+            <div class="media media-post">
+              <div class="media-left">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x text-info"></i>
+                  <i class="fa fa-code-fork fa-stack-1x fa-inverse"></i>
+                </span>
+              </div>
+              <div class="media-body">
+                <span class="media-heading">Cooper Black</span>
+                Has sent a pull request
+                <span class="media-meta"><i class="fa fa-clock-o"></i> 5 minutes ago</span>
+              </div><!-- /.media-body -->
+            </div><!-- /.media -->
+          </a>
+        </li>
+        <li>
+          <a href="#link">
+            <div class="media media-post">
+              <div class="media-left">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x text-danger"></i>
+                  <i class="fa fa-code-fork fa-stack-1x fa-inverse"></i>
+                </span>
+              </div>
+              <div class="media-body">
+                <span class="media-heading">Calisto MT</span>
+                Has has filed a bug report
+                <span class="media-meta"><i class="fa fa-clock-o"></i> 5 minutes ago</span>
+              </div><!-- /.media-body -->
+            </div><!-- /.media -->
+          </a>
+        </li>
+        <li>
+          <a href="#link">
+            <div class="media media-post">
+              <img class="media-left" src="assets/img/user-male-2.jpg" alt="img">
+              <div class="media-body">
+                <span class="media-heading">Calisto MT</span>
+                Has has filed a bug report
+                <span class="media-meta">
+                  <i class="fa fa-clock-o"></i> 5 minutes ago
+                </span>
+              </div><!-- /.media-body -->
+            </div><!-- /.media -->
+          </a>
+        </li>
+      </ul><!-- /.sidebar-nav -->
+    </aside><!-- /.sidebar -->
+
+    <!-- Page content -->
+    <main class="page-content">
+      <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-3">
+              <button type="button" class="btn navbar-btn btn-link pull-left" data-toggle="sidebar-primary"><i class="fa fa-fw text-white fa-align-justify"></i></button>
+            </div><!-- /.col -->
+            <div class="col-xs-6 text-center">
+              <a class="navbar-brand" href="#link">
+                <!-- <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png"> -->
+                <span class="brand-name">Dashboard</span>
+              </a>
+            </div><!-- /.col -->
+            <div class="col-xs-3">
+              <button type="button" class="btn navbar-btn btn-link btn-group pull-right" data-toggle="sidebar-secondary">
+                <i class="glyphicon glyphicon-flash text-white"></i>
+                <span class="label label-danger notif-count">6</span>
+              </button>
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </nav><!-- /.navbar.navbar-inverse -->
+
+      <section class="section-xs bg-white border-default">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <ol class="breadcrumb no-margin">
+                <li><a href="#link">Main</a></li>
+                <li><a href="#link">Section</a></li>
+                <li class="active">Current</li>
+              </ol>
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </section>
+
+      <section class="section-sm">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Activity Stream</h1>
+            </div><!-- /.col -->
+          </div><!-- /.row --> <br class="spacer-md">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="widget">
+                <div class="panel panel-default">
+                  <!-- <div class="panel-heading">
+                    <strong>Write something</strong>
+                  </div> -->
+                  <div class="panel-body">
+                    <form>
+                      <textarea class="form-control no-border" rows="1" placeholder="What's on your mind?"></textarea>
+                    </form>
+                  </div><!-- /.panel-body -->
+                  <div class="panel-footer clearfix">
+                    <p class="pull-right no-margin">
+                      <button class="btn btn-primary"><i class="fa fa-fw fa-bullhorn"></i> Publish</button>
+                    </p>
+                    <a class="btn btn-link btn-link-muted" href="#link"><i class="fa fa-picture-o"></i></a>
+                    <a class="btn btn-link btn-link-muted" href="#link"><i class="fa fa-map-marker"></i></a>
+                    <a class="btn btn-link btn-link-muted" href="#link"><i class="fa fa-user"></i></a>
+                  </div><!-- /.panel-footer -->
+                </div><!-- /.panel -->
+              </div><!-- /.widget -->
+
+              <div class="media media-post">
+                <a class="media-left" href="#"><img src="assets/img/user-female-2.jpg" alt="user"></a>
+                <div class="media-body">
+                  <div class="media-content">
+                    <div class="btn-group pull-right">
+                      <a class="link-muted" href="#link" data-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-fw fa-cog"></i>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul><!-- /.dropdown-menu -->
+                    </div><!-- /.btn-group -->
+                    <h4 class="media-heading"><a href="##">Lucida Sans</a></h4>
+                  </div><!-- /.media-content -->
+                  <div class="media-content">
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div><!-- /.media-content -->
+                  <div class="media-content media-meta">
+                    <span class="pull-right"><i class="fa fa-clock-o"></i> 14 minutes ago</span>
+                    12 <a href="#link">Likes</a> • 3 <a href="#link">Comments</a> • <a href="##">Share</a>
+                  </div><!-- /.media-content -->
+                  <div class="media-content">
+                    <!-- Nested media -->
+                    <div class="media media-post">
+                      <a class="media-left" href="#"><img src="assets/img/user-male-1.jpg" alt="user"></a>
+                      <div class="media-body">
+                        <div class="media-content">
+                          <h5 class="media-heading"><a href="##">Calisto MT</a></h5>
+                        </div><!-- /.media-content -->
+                        <div class="media-content">
+                          Helvetica raw denim Thundercats, 8-bit retro kale chips Kickstarter Carles heirloom Bushwick ugh salvia flexitarian High Life. Tofu pickled mumblecore, vhs actually raw denim before they sold out freegan selvage.
+                        </div><!-- /.media-content -->
+                        <div class="media-content media-meta">
+                          <span class="pull-right"><i class="fa fa-clock-o"></i> 14 minutes ago</span>
+                          12 <a href="#link">Likes</a>
+                        </div><!-- /.media-content -->
+                      </div><!-- /.media-body -->
+                    </div><!-- /.media -->
+                    <div class="media media-post">
+                      <a class="media-left" href="#"><img src="assets/img/user-male-1.jpg" alt="user"></a>
+                      <div class="media-body">
+                        <div class="media-content">
+                          <h5 class="media-heading"><a href="##">Calisto MT</a></h5>
+                        </div><!-- /.media-content -->
+                        <div class="media-content">
+                          Crucifix semiotics kitsch swag pickled Austin, Shoreditch beard small batch artisan. Ennui kogi sustainable cardigan. Bespoke migas locavore selfies, beard retro polaroid.
+                        </div><!-- /.media-content -->
+                        <div class="media-content media-meta">
+                          <span class="pull-right"><i class="fa fa-clock-o"></i> 14 minutes ago</span>
+                          12 <a href="#link">Likes</a>
+                        </div><!-- /.media-content -->
+                      </div><!-- /.media-body -->
+                    </div><!-- /.media -->
+                     <!-- End of nested media -->
+                  </div><!-- /.media-content -->
+                  <div class="media-content">
+                    <textarea class="form-control" rows="1" placeholder="Write an answer..."></textarea>
+                  </div><!-- /.media-content -->
+                </div><!-- /.media-body -->
+              </div><!-- /.media --> <br class="spacer-md">
+
+              <div class="media media-post">
+                <a class="media-left" href="#"><img src="assets/img/user-male-2.jpg" alt="user"></a>
+                <div class="media-body">
+                  <div class="media-content">
+                    <div class="btn-group pull-right">
+                      <a class="link-muted" href="#link" data-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-fw fa-cog"></i>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul><!-- /.dropdown-menu -->
+                    </div><!-- /.btn-group -->
+                    <h4 class="media-heading"><a href="##">Cooper Black</a></h4>
+                  </div><!-- /.media-content -->
+                  <div class="media-content no-padding">
+                    <a href="#link"><img class="img-responsive" src="assets/img/post-image.png" alt="Post image"></a>
+                  </div><!-- /.media-content -->
+                  <div class="media-content">
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div><!-- /.media-content -->
+                  <div class="media-content media-meta">
+                    <span class="pull-right"><i class="fa fa-clock-o"></i> 14 minutes ago</span>
+                    12 <a href="#link">Likes</a> • 3 <a href="#link">Comments</a> • <a href="##">Share</a>
+                  </div><!-- /.media-content -->
+                  <div class="media-content">
+                    <!-- Nested media -->
+                    <div class="media media-post">
+                      <a class="media-left" href="#"><img src="assets/img/user-male-1.jpg" alt="user"></a>
+                      <div class="media-body">
+                        <div class="media-content">
+                          <h5 class="media-heading"><a href="##">Calisto MT</a></h5>
+                        </div><!-- /.media-content -->
+                        <div class="media-content">
+                          Helvetica raw denim Thundercats, 8-bit retro kale chips Kickstarter Carles heirloom Bushwick ugh salvia flexitarian High Life. Tofu pickled mumblecore, vhs actually raw denim before they sold out freegan selvage.
+                        </div><!-- /.media-content -->
+                        <div class="media-content media-meta">
+                          <span class="pull-right"><i class="fa fa-clock-o"></i> 14 minutes ago</span>
+                          12 <a href="#link">Likes</a>
+                        </div><!-- /.media-content -->
+                      </div><!-- /.media-body -->
+                    </div><!-- /.media -->
+                     <!-- End of nested media -->
+                  </div><!-- /.media-content -->
+                  <div class="media-content">
+                    <textarea class="form-control" rows="1" placeholder="Write an answer..."></textarea>
+                  </div><!-- /.media-content -->
+                </div><!-- /.media-body -->
+              </div><!-- /.media -->
+
+            </div><!-- /.col -->
+            <div class="col-md-4">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <div><strong>Group Chat</strong></div>
+                </div><!-- /.panel-heading -->
+                <div class="panel-body">
+                  <div class="media media-post">
+                    <img class="media-left img-circle" src="assets/img/user-female-1.jpg" alt="img">
+                    <div class="media-body">
+                      <div class="media-content">
+                        <span class="media-heading">Lucida Sans:</span>
+                        Have you considered speaking at the industry conference?
+                        <span class="media-meta"><i class="fa fa-clock-o"></i> 9 minutes ago</span>
+                      </div><!-- /.media-content -->
+                    </div><!-- /.media-body -->
+                  </div><!-- /.media-post -->
+                  <div class="media media-post">
+                    <img class="media-right img-circle" src="assets/img/user-male-1.jpg" alt="img">
+                    <div class="media-body">
+                      <div class="media-content">
+                        <span class="media-heading">Me:</span>
+                        We're doning the best we can to deliver better services every day
+                        <span class="media-meta"><i class="fa fa-clock-o"></i> 9 minutes ago</span>
+                      </div><!-- /.media-content -->
+                    </div><!-- /.media-body -->
+                  </div><!-- /.media-post -->
+                  <div class="media media-post">
+                    <img class="media-left img-circle" src="assets/img/user-female-2.jpg" alt="img">
+                    <div class="media-body">
+                      <div class="media-content">
+                        <span class="media-heading">Cambria Serif:</span>
+                        Have you considered speaking at the industry conference?
+                        <span class="media-meta"><i class="fa fa-clock-o"></i> 9 minutes ago</span>
+                      </div><!-- /.media-content -->
+                    </div><!-- /.media-body -->
+                  </div><!-- /.media-post -->
+                  <div class="media media-post">
+                    <img class="media-left img-circle" src="assets/img/user-male-2.jpg" alt="img">
+                    <div class="media-body">
+                      <div class="media-content">
+                        <span class="media-heading">Calisto MT:</span>
+                        We're doning the best we can to deliver better services every day
+                        <span class="media-meta"><i class="fa fa-clock-o"></i> 9 minutes ago</span>
+                      </div><!-- /.media-content -->
+                    </div><!-- /.media-body -->
+                  </div><!-- /.media-post -->
+                </div><!-- /.panel-body -->
+                <div class="panel-footer">
+                  <p><strong>Your Answer:</strong></p>
+                  <p><textarea class="form-control" rows="1" placeholder="Write an answer..."></textarea></p>
+                </div><!-- /.panel-footer -->
+              </div><!-- /.panel -->
+            </div><!-- /.col -->
+          </div><!-- /.row --> <br class="spacer-md">
+        </div><!-- /.container -->
+      </section>
+
+    </main><!-- /.page-content -->
+
+  </div><!-- /.dashboard-wrapper -->
+
+  <!-- last but not least the javascript -->
+  <script src="../../../../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.html"><\/script>')</script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Plugins -->
+  <script src="assets/prism/prism.js"></script>
+  <script src="assets/bootstrap-select/bootstrap-select.min.js"></script>
+  <script src="assets/isotope/isotope.pkgd.min.js"></script>
+  <script src="assets/jquery.countdown/jquery.countdown.min.js"></script>
+  <script src="assets/summernote/summernote.min.js"></script>
+  <script src="assets/tags-input/bootstrap-tagsinput.min.js"></script>
+  <script src="assets/autosize/jquery.autosize.min.js"></script>
+  <script src="assets/validator/validator.min.js"></script>
+  <script src="assets/chartjs/Chart.min.js"></script>
+  <script src="assets/jquery-labelauty/jquery-labelauty.js"></script>
+  <script src="assets/js/holder.js"></script>
+  <script src="assets/js/demo.js"></script>
+</body>
+
+<!-- Mirrored from graphikaria.com/demo/theorem/v2.0.0/activity.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Aug 2016 15:32:52 GMT -->
+</html>
