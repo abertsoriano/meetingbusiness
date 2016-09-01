@@ -76,8 +76,18 @@
                     <li class="active"><a href="#header" class="smooth-scroll">INICIO</a></li>
                     <li><a href="#testimonials" class="smooth-scroll">TESTIMONIOS</a></li>
                     <li><a href="#features" class="smooth-scroll">NOSOTROS</a></li>
-                    <li><a href="home">INICIE SESIÓN</a></li>
+                    <li>
+                        <a href="home">
+                            @if (Auth::guest())
+                            INICIE SESIÓN
+                            @else
+                            ENTRAR
+                            @endif
+                        </a>
+                    </li>
+                    @if (Auth::guest())
                     <li class="menu-btn"><a href="login">ÚNASE AHORA!</a></li>
+                    @endif
                 </ul>
 
             </div>
