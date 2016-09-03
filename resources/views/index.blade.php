@@ -22,12 +22,12 @@
             <div class="container">
                 <div class="affa-testimonial">
                     <div class="testimonial-txt">
-                        <p>"Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Enim id minim veniam exercitation laboris consequat. Duis aute dolor reprehende ritin voluptate cillum fugiatos."</p>
+                        <p>"Logre contactarme con un inversionista el cual compartía la misma visión que yo y juntos abrimos el mejor restaurante mexicano de Lima."</p>
                     </div>
                     <div class="testimonial-name">
                         <img src="images/content/avatar/1.jpg" alt="Avatar">
-                        <h4>Amah Holland</h4>
-                        <p>Social Media Manager of MG</p>
+                        <h4>Marcelino Ramones</h4>
+                        <p>Gerente General - Taqueria no te rajes</p>
                     </div>
                 </div>
             </div>
@@ -37,12 +37,12 @@
             <div class="container">
                 <div class="affa-testimonial">
                     <div class="testimonial-txt">
-                        <p>"Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Enim id minim veniam exercitation laboris consequat. Duis aute dolor reprehende ritin voluptate cillum fugiatos."</p>
+                        <p>"Estaba en búsqueda de un socio especialista en Mercadotecnia ya que quería lanzar un nuevo producto al mercado, y aquí lo encontré."</p>
                     </div>
                     <div class="testimonial-name">
                         <img src="images/content/avatar/2.jpg" alt="Avatar">
-                        <h4>Natsu Dragnell</h4>
-                        <p>Lead Designer of DolanDolen</p>
+                        <h4>Marco Sanchez</h4>
+                        <p>CEO - Perú Food Import, INC</p>
                     </div>
                 </div>
             </div>
@@ -52,12 +52,12 @@
             <div class="container">
                 <div class="affa-testimonial">
                     <div class="testimonial-txt">
-                        <p>"Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Enim id minim veniam exercitation laboris consequat. Duis aute dolor reprehende ritin voluptate cillum fugiatos."</p>
+                        <p>"LCon años de experiencia en el sector salud sentí que ya era hora de unirme a un grupo de personas para realizar un servicio completo y lleno beneficios para la salud del asociado y fue así que mediante Reuneos pude encontrar al socio que estaba buscando."</p>
                     </div>
                     <div class="testimonial-name">
                         <img src="images/content/avatar/3.jpg" alt="Avatar">
-                        <h4>Denden Mushi</h4>
-                        <p>Mobile Developer of Avelie</p>
+                        <h4>Michael Fishman</h4>
+                        <p>Gerente Comercial - Seguros Integral Salud</p>
                     </div>
                 </div>
             </div>
@@ -76,8 +76,8 @@
     <div class="container">
 
         <div class="post-heading-center">
-            <h2>Get More Paying Customers</h2>
-            <p>Take control over your landing page template.</p>
+            <h2></h2>
+            <p></p>
         </div>
 
 
@@ -119,23 +119,23 @@
                 <div class="col-txt120">
 
                     <div class="post-heading-left text-center-sm">
-                        <h2><strong>Great support.</strong> We'll help you!</h2>
-                        <p>Our customer service won’t leave you alone</p>
+                        <h2><strong>Queremos conectarte con personas</strong> que agreguen valor a tus proyectos o emprendimiento.</h2>
+                        <p></p>
                     </div>
 
-                    <p class="margin-bottom20 text-center-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempam justo duo dolores aliqua dolore rebum.</p>
+                    <p class="margin-bottom20 text-center-sm">Identificar un socio con habilidades e intereses tal cual como lo requiere tu emprendimiento o negocio será cada vez más fácil con nosotros.</p>
 
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="affa-col-txt">
-                                <h4>Support step 1</h4>
-                                <p>Duis aute dolor reprehende ritin voluptate cillum dolore fugiatos pariatur sint occaecat est.</p>
+                                <h4>Optimiza tu tiempo…</h4>
+                                <p>Te facilitamos reuniones de negocios con quienes agregan elementos importantes a tu cadena de valor.  Tú eliges con quién, por qué y cuándo!!</p>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="affa-col-txt">
-                                <h4>Support step 2</h4>
-                                <p>Duis aute dolor reprehende ritin voluptate cillum dolore fugiatos pariatur sint occaecat est.</p>
+                                <h4>Descubre siempre nuevas oportunidades…</h4>
+                                <p>En REUNEOS puedes estar preparado para descubrir tantas oportunidades profesionales y de negocio como quieras.</p>
                             </div>
                         </div>
                     </div>
@@ -143,14 +143,14 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="affa-col-txt">
-                                <h4>Support step 3</h4>
-                                <p>Duis aute dolor reprehende ritin voluptate cillum dolore fugiatos pariatur sint occaecat est.</p>
+                                <h4>Cambiamos el concepto de reunión de negocios…</h4>
+                                <p>Ya no más los encuentros típicos y reuniones sin sentido, ahora con REUNEOS puedes compartir verdaderos intereses personales y profesionales con toda una comunidad.</p>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="affa-col-txt">
-                                <h4>Support step 4</h4>
-                                <p>Duis aute dolor reprehende ritin voluptate cillum dolore fugiatos pariatur sint occaecat est.</p>
+                                <h4>Sé más profesional y moderno </h4>
+                                <p>Con una herramienta de verdad y conecta con quienes te están esperando.  Comienza ahora!!.</p>
                             </div>
                         </div>
                     </div>
@@ -182,16 +182,16 @@
         <div class="container">
 
             <div class="post-heading-center">
-                <h2>Subscribe for The Latest Offers!</h2>
-                <p>Join thousands of satisfied subscribers to get the latest offers from us.</p>
+                <h2>En REUNEOS encontrarás la mejor forma de realizar contactos de verdad con citas de verdad.</h2>
+                <p>Tenemos la mejor forma de hacer contactos efectivos para tu emprendimiento, proyecto o negocio compartiendo con quien quieres tus intereses.</p>
+                <p>¿ESTÁ LISTO PARA EMPEZAR A HACER NEGOCIOS?</p>
             </div>
 
             <form method="post" action="#" class="affa-form-subscribe">
-                <input type="text" name="email" placeholder="Email address....">
-                <input type="submit" name="submit" value="Subscribe Now">
+               <a href="register"><input type="submit" name="submit" value="UNASÉ AHORA!"></a>
             </form>
 
-            <p class="txt-desc">* We don’t share your personal info with anyone. Check out our <a href="#">Privacy Policy</a> for more information.</p>
+            <p class="txt-desc">o conéctese utilizando Facebook o Google</p>
 
         </div>
         <!-- .container end -->

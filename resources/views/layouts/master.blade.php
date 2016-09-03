@@ -86,7 +86,7 @@
                         </a>
                     </li>
                     @if (Auth::guest())
-                    <li class="menu-btn"><a href="login">ÚNASE AHORA!</a></li>
+                    <li class="menu-btn"><a href="register">ÚNASE AHORA!</a></li>
                     @endif
                 </ul>
 
@@ -109,32 +109,20 @@
                         <div class="header-txt">
                             <h1>En REUNEOS encontrarás la mejor forma de realizar contactos de verdad con citas de verdad.</h1>
                             <h4>Tenemos la mejor forma de hacer contactos efectivos para tu emprendimiento, proyecto o negocio compartiendo con quien quieres tus intereses.</h4>
-                            <div class="header-txt-btn">
-                                <a href="https://www.youtube.com/embed/4ZawV1mXlS8?autoplay=1" class="btn-play fancybox-media" title="Play Video"><i class="fa fa-play"></i></a>
+                            <p>¿ESTÁ LISTO PARA EMPEZAR A HACER NEGOCIOS?</p>
+
+                            <div class="header-form">
+                                <div class="submit-status"></div> <!-- submit status -->
+                                <form method="post" action="#" class="affa-form-signup">
+                                    <a href="register"><input type="button" name="submit" value="UNASÉ AHORA!" class="btn-medium"></a>
+                                </form>
+                                <p class="txt-desc">o conéctese utilizando Facebook o Google</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-5 col-lg-offset-1">
-                        <div class="header-form">
-                            <div class="submit-status"></div> <!-- submit status -->
-                            <ul class="header-form-heading">
-                                <li>
-                                    <i class="fa fa-send-o"></i>
-                                    <p>Aenean dictum pharetra nibh sodales luctus felis vulputate aliquet quam.</p>
-                                </li>
-                                <li>
-                                    <i class="fa fa-heart-o"></i>
-                                    <p>Aenean dictum pharetra nibh sodales luctus felis vulputate aliquet quam.</p>
-                                </li>
-                            </ul>
-                            <form method="post" action="#" class="affa-form-signup">
-                                <input type="text" name="name" id="header_form_name" placeholder="Correo">
-                                <input type="text" name="email" id="header_form_email" placeholder="Repetir Correo">
-                                <input type="submit" name="submit" value="UNASÉ AHORA!" class="btn-medium">
-                            </form>
-                            <p class="txt-desc">We don’t share your personal info with anyone. Check out our <a href="#">Privacy Policy</a> for more information.</p>
-                        </div>
+
                     </div>
 
                 </div>
@@ -160,7 +148,7 @@
     <!-- .container -->
     <div class="container">
 
-        <p class="copyright-txt">&copy; 2016 Copyrights by <a href="http://affapress.com/" target="_blank">Affapress</a> - All rights reserved.</p>
+        <p class="copyright-txt">&copy; 2016 Copyrights by REUNEOS - All rights reserved.</p>
 
         <div class="socials">
             <a href="#" title="Facebook" class="link-facebook"><i class="fa fa-facebook"></i></a>
