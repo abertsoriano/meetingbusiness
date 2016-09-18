@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="is-dashboard">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -135,12 +135,12 @@
       </ul><!-- /.sidebar-nav -->
     </aside><!-- /.sidebar -->
     <!-- #left part end -->
-
-
     <!-- #Header -->
     <aside class="dashboard-sidebar sidebar-secondary">
       <div class="sidebar-header">
-        <button type="button" class="btn btn-link pull-left vertical-align" data-toggle="sidebar-secondary"><i class="fa fa-fw fa-times-circle fa-lg text-white"></i></button>
+        <button type="button" class="btn btn-link pull-left vertical-align" data-toggle="sidebar-secondary">
+          <i class="fa fa-fw fa-times-circle fa-lg text-white"></i>
+        </button>
         <p class="pull-left vertical-align"><strong>Notifications:</strong></p>
       </div><!-- /.sidebar-header -->
       <ul class="sidebar-nav">
@@ -243,8 +243,31 @@
       </ul><!-- /.sidebar-nav -->
     </aside><!-- /.sidebar -->
     <!-- #Header end -->
-@yield('content')
-
+    <main class="page-content">
+      <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-3">
+              <button type="button" class="btn navbar-btn btn-link pull-left" data-toggle="sidebar-primary">
+                <i class="fa fa-fw text-white fa-align-justify"></i></button>
+            </div><!-- /.col -->
+            <div class="col-xs-6 text-center">
+              <a class="navbar-brand" href="#link">
+                <!-- <img class="brand-logo" alt="Logo" src="img/logo-white.png"> -->
+                <span class="brand-name">USUARIO</span>
+              </a>
+            </div><!-- /.col -->
+            <div class="col-xs-3">
+              <button type="button" class="btn navbar-btn btn-link btn-group pull-right" data-toggle="sidebar-secondary">
+                <i class="fa fa-flash text-white fa-lg"></i>
+                <span class="label label-danger notif-count">6</span>
+              </button>
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </nav><!-- /.navbar.navbar-inverse -->
+      @yield('content')
+    </main>
   </div><!-- /.dashboard-wrapper -->
   <!-- last but not least the javascript -->
   <script src="js/jquery-1.11.3.min.js"></script>
