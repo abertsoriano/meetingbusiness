@@ -1,50 +1,48 @@
 <!DOCTYPE html>
-<html class="is-dashboard" lang="en">
-
-<!-- Mirrored from graphikaria.com/demo/theorem/v2.0.0/calendar.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Aug 2016 15:32:53 GMT -->
+<html lang="en" class="is-dashboard">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <title></title>
   <meta name="author" content="">
   <meta name="description" content="">
 
-  <link rel="shortcut icon" href="assets/ico/favicon.ico">
-  <link rel="apple-touch-icon-precomposed" href="assets/ico/favicon-152.html">
+  <link rel="shortcut icon" href="ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="ico/favicon-152.html">
   <meta name="msapplication-TileColor" content="#FFFFFF">
-  <meta name="msapplication-TileImage" content="assets/ico/favicon-144.html">
+  <meta name="msapplication-TileImage" content="ico/favicon-144.html">
 
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/simple-lines/simple-line-icons.css">
-  <link rel="stylesheet" href="assets/bootstrap-select/bootstrap-select.min.css">
-  <link rel="stylesheet" href="assets/prism/prism.css">
-  <link rel="stylesheet" href="assets/summernote/summernote.css">
-  <link rel="stylesheet" href="assets/tags-input/bootstrap-tagsinput.css">
-  <link rel='stylesheet' href='assets/fullcalendar/fullcalendar.css' />
-  <link rel="stylesheet" href="assets/css/theme.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="js/assets/simple-lines/simple-line-icons.css">
+  <link rel="stylesheet" href="js/assets/bootstrap-select/bootstrap-select.min.css">
+  <link rel="stylesheet" href="js/assets/prism/prism.css">
+  <link rel="stylesheet" href="js/assets/summernote/summernote.css">
+  <link rel="stylesheet" href="js/assets/tags-input/bootstrap-tagsinput.css">
+  <link rel="stylesheet" href="css/theme.min.css">
   <!--[if lt IE 9]>
-    <script src="assets/js/html5shiv.min.js"></script>
-    <script src="assets/js/selectivizr-min.js"></script>
-    <script src="assets/js/respond.min.js"></script>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/selectivizr-min.js"></script>
+    <script src="js/respond.min.js"></script>
   <![endif]-->
-</head>
+  </head>
 
-<body>
+  <body>
   <div class="dashboard-wrapper">
+    <!-- #left part -->
     <aside class="dashboard-sidebar sidebar-primary">
       <div class="sidebar-header text-center">
         <a class="navbar-brand" href="#link">
-          <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png">
-          <span class="brand-name">Dashboard</span>
+          <img class="brand-logo" alt="Logo" src="img/logo-white.png">
+          <span class="brand-name">REUNEOS</span>
         </a><!-- /.navbar-brand -->
       </div><!-- /.sidebar-header -->
       <div class="sidebar-subheader text-center">
-        <img class="img-circle" src="assets/img/user-male-2.jpg" width="100" height="100" alt="img">
-        <p class="no-margin"><strong>Cooper Black</strong></p>
-        <p><small><i class="fa fa-globe"></i> Paris, France</small></p>
+        <img class="img-circle" src="img/user-male-2.jpg" width="100" height="100" alt="img">
+        <p class="no-margin"><strong>{{ Auth::user()->name }}</strong></p>
+        <p><small><i class="fa fa-globe"></i> Lima, Peru</small></p>
         <p><a href="#link" class="btn btn-outline btn-primary">Edit Profile</a></p>
       </div><!-- /.sidebar-subheader -->
       <div class="sidebar-subheader">
@@ -52,7 +50,6 @@
           <input type="text" class="form-control" placeholder="Search">
         </form>
       </div><!-- /.sidebar-subheader -->
-
       <ul class="sidebar-nav">
         <li class="active">
           <a href="index.html">
@@ -60,7 +57,7 @@
             Home
           </a>
         </li>
-        <li class="header"><i class="fa fa-circle-o text-info"></i>Administrar</li>
+        <li class="header"><i class="fa fa-circle-o text-info"></i> Administrar</li>
         <li>
           <a href="publishing.html">
             <i class="icon-note"></i>
@@ -72,7 +69,7 @@
           <a href="edit-profile.html">
             <i class="icon-user"></i>
             Editar Perfil
-          </a>  
+          </a>
         </li>
         <li>
           <a href="calendar.html">
@@ -80,7 +77,7 @@
             Calendario
           </a>
         </li>
-        <li class="header"><i class="fa fa-circle-o text-warning"></i> Admin</li>
+        <li class="header"><i class="fa fa-circle-o text-warning"></i> Otros</li>
         <li>
           <a href="stats.html">
             <i class="icon-pie-chart"></i>
@@ -130,24 +127,27 @@
           </ul>
         </li>
         <li>
-          <a href="login.html">
+          <a href="{{ url('logout') }}">
             <i class="icon-logout"></i>
             Desconectarse
           </a>
         </li>
       </ul><!-- /.sidebar-nav -->
     </aside><!-- /.sidebar -->
-
+    <!-- #left part end -->
+    <!-- #Header -->
     <aside class="dashboard-sidebar sidebar-secondary">
       <div class="sidebar-header">
-        <button type="button" class="btn btn-link pull-left vertical-align" data-toggle="sidebar-secondary"><i class="fa fa-fw fa-times-circle fa-lg text-white"></i></button>
+        <button type="button" class="btn btn-link pull-left vertical-align" data-toggle="sidebar-secondary">
+          <i class="fa fa-fw fa-times-circle fa-lg text-white"></i>
+        </button>
         <p class="pull-left vertical-align"><strong>Notifications:</strong></p>
       </div><!-- /.sidebar-header -->
       <ul class="sidebar-nav">
         <li class="new">
           <a href="#link">
             <div class="media media-post">
-              <img class="media-left" src="assets/img/user-female-1.jpg" alt="img">
+              <img class="media-left" src="img/user-female-1.jpg" alt="img">
               <div class="media-body">
                 <span class="media-heading">Lucida Sans</span>
                 Has added 3 new pictures to her cloud instance
@@ -159,7 +159,7 @@
         <li class="new">
           <a href="#link">
             <div class="media media-post">
-              <img class="media-left" src="assets/img/user-female-2.jpg" alt="img">
+              <img class="media-left" src="img/user-female-2.jpg" alt="img">
               <div class="media-body">
                 <span class="media-heading">Cambria Serif</span>
                 Has added 3 new pictures to her cloud instance
@@ -171,7 +171,7 @@
         <li>
           <a href="#link">
             <div class="media media-post">
-              <img class="media-left" src="assets/img/user-male-1.jpg" alt="img">
+              <img class="media-left" src="img/user-male-1.jpg" alt="img">
               <div class="media-body">
                 <span class="media-heading">Calisto MT</span>
                 Has added 3 new pictures to her cloud instance
@@ -183,7 +183,7 @@
         <li>
           <a href="#link">
             <div class="media media-post">
-              <img class="media-left" src="assets/img/user-male-2.jpg" alt="img">
+              <img class="media-left" src="img/user-male-2.jpg" alt="img">
               <div class="media-body">
                 <span class="media-heading">Cooper Black</span>
                 Has added 3 new pictures to her cloud instance
@@ -229,7 +229,7 @@
         <li>
           <a href="#link">
             <div class="media media-post">
-              <img class="media-left" src="assets/img/user-male-2.jpg" alt="img">
+              <img class="media-left" src="img/user-male-2.jpg" alt="img">
               <div class="media-body">
                 <span class="media-heading">Calisto MT</span>
                 Has has filed a bug report
@@ -242,80 +242,49 @@
         </li>
       </ul><!-- /.sidebar-nav -->
     </aside><!-- /.sidebar -->
-
-    <!-- Page content -->
+    <!-- #Header end -->
     <main class="page-content">
       <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
         <div class="container">
           <div class="row">
             <div class="col-xs-3">
-              <button type="button" class="btn navbar-btn btn-link pull-left" data-toggle="sidebar-primary"><i class="fa fa-fw text-white fa-align-justify"></i></button>
+              <button type="button" class="btn navbar-btn btn-link pull-left" data-toggle="sidebar-primary">
+                <i class="fa fa-fw text-white fa-align-justify"></i></button>
             </div><!-- /.col -->
             <div class="col-xs-6 text-center">
               <a class="navbar-brand" href="#link">
-                <!-- <img class="brand-logo" alt="Logo" src="assets/img/logo-white.png"> -->
-                <span class="brand-name">Dashboard</span>
+                <!-- <img class="brand-logo" alt="Logo" src="img/logo-white.png"> -->
+                <span class="brand-name">USUARIO</span>
               </a>
             </div><!-- /.col -->
             <div class="col-xs-3">
               <button type="button" class="btn navbar-btn btn-link btn-group pull-right" data-toggle="sidebar-secondary">
-                <i class="glyphicon glyphicon-flash text-white"></i>
+                <i class="fa fa-flash text-white fa-lg"></i>
                 <span class="label label-danger notif-count">6</span>
               </button>
             </div><!-- /.col -->
           </div><!-- /.row -->
         </div><!-- /.container -->
       </nav><!-- /.navbar.navbar-inverse -->
-
-      <section class="section-xs bg-white border-default">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-              <ol class="breadcrumb no-margin">
-                <li><a href="#link">Main</a></li>
-                <li><a href="#link">Section</a></li>
-                <li class="active">Current</li>
-              </ol>
-            </div><!-- /.col -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section>
-
-      <section class="section-sm">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div id="calendar"></div><!-- /.calendar -->
-            </div><!-- /.col -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section>
-
-    </main><!-- /.page-content -->
-
+      @yield('content')
+    </main>
   </div><!-- /.dashboard-wrapper -->
-
   <!-- last but not least the javascript -->
-  <script src="../../../../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.html"><\/script>')</script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
   <!-- Plugins -->
-  <script src="assets/prism/prism.js"></script>
-  <script src="assets/bootstrap-select/bootstrap-select.min.js"></script>
-  <script src="assets/isotope/isotope.pkgd.min.js"></script>
-  <script src="assets/jquery.countdown/jquery.countdown.min.js"></script>
-  <script src="assets/summernote/summernote.min.js"></script>
-  <script src="assets/tags-input/bootstrap-tagsinput.min.js"></script>
-  <script src="assets/autosize/jquery.autosize.min.js"></script>
-  <script src="assets/validator/validator.min.js"></script>
-  <script src="assets/chartjs/Chart.min.js"></script>
-  <script src="assets/jquery-labelauty/jquery-labelauty.js"></script>
-  <script src="assets/js/holder.js"></script>
-  <script src='assets/fullcalendar/lib/moment.min.js'></script>
-  <script src='assets/fullcalendar/fullcalendar.js'></script>
-  <script src="assets/js/demo.js"></script>
-</body>
-
-<!-- Mirrored from graphikaria.com/demo/theorem/v2.0.0/calendar.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Aug 2016 15:32:54 GMT -->
-</html>
+  <!--<script src="prism/prism.js"></script>
+  <script src="bootstrap-select/bootstrap-select.min.js"></script>
+  <script src="isotope/isotope.pkgd.min.js"></script>
+  <script src="jquery.countdown/jquery.countdown.min.js"></script>
+  <script src="summernote/summernote.min.js"></script>
+  <script src="tags-input/bootstrap-tagsinput.min.js"></script>
+  <script src="autosize/jquery.autosize.min.js"></script>
+  <script src="validator/validator.min.js"></script>
+  <script src="chartjs/Chart.min.js"></script>-->
+  <!--<script src="js/assets/jquery-labelauty/jquery-labelauty.js"></script>-->
+  <!--<script src="js/holder.js"></script>-->
+  <script src="js/demo.js"></script>
+  </body>
+  </html>

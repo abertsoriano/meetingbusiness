@@ -53,17 +53,19 @@
                                 <button type="submit" class="btn btn-primary">
                                     <i class="fa fa-btn fa-sign-in"></i> Ingresar
                                 </button>
-
                                 <a class="btn btn-link" href="{{ url('/password/reset') }}">Olvidó la contraseña?</a>
-
-
                             </div>
-
-                                            <div class="form-group">
-                                              <p class="help-block">Conectarse con alguna red social:</p>
-                                              <button type="button" class="btn btn-block btn-facebook"><i class="fa fa-fw fa-facebook"></i> Facebook</button>
-                                              <button type="button" class="btn btn-block btn-twitter"><i class="fa fa-fw fa-twitter"></i> Twitter</button>
-                                            </div><!-- /.form-group -->
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <p class="help-block">Conectarse con alguna red social:</p>
+                                <button type="button" class="btn btn-block btn-facebook">
+                                    <i class="fa fa-fw fa-facebook"></i> Facebook
+                                </button>
+                                <button type="button" class="btn btn-block btn-twitter">
+                                    <i class="fa fa-fw fa-twitter"></i> Twitter
+                                </button>
+                            </div>
                         </div>
                     </form>
                 </div>
